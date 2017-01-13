@@ -13,3 +13,69 @@
  *= require_tree .
  *= require_self
  */
+.inner{
+  padding-left: 4em ;
+  padding-right: 4em ;
+}
+.center-block{
+    position: absolute;
+    top: 50% ;
+    transform: translateY(-50%);
+}
+
+.box{
+  position: relative;
+  height: 300px ;
+}
+.style1{
+  top: 50% ;
+  bottom: 50% ;
+}
+
+#nav{
+  position: absolute ;
+  text-align: center ;
+  width: 100% ;
+  padding: 1.5em 0 1.5em 0 ;
+}
+  #nav > ul {
+
+  }
+
+  #nav > ul > li{
+    display: inline-block;
+  }
+
+
+#header{
+  height: 100vh ;
+  background-color: pink ;
+}
+
+.profile-img{
+  border-radius: 50% ;
+  padding-left: 2em ;
+  padding-right: 2em ;
+  float:right;
+}
+
+/***** GRID *****/
+.row{
+  width: 100% ;
+  box-sizing: border-box;
+}
+
+.col{
+  float:left ;
+}
+
+.col-30{
+  width: 30% ;
+}
+
+.col-70{
+  width: 70% ;
+}
+.col-50{
+  width: 50% ;
+}

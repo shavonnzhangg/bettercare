@@ -14,3 +14,28 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+// Function displaying location on map
+function getMap() {
+        var location = {lat: 49.296267, lng:   -122.802727};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: location
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+
+  // function getMapLangley() {
+  //         var location = {lat: 49.145132, lng: -122.646605} ;
+  //         var map = new google.maps.Map(document.getElementById('langley-map'), {
+  //           zoom: 12,
+  //           center: location
+  //         });
+  //         var marker = new google.maps.Marker({
+  //           position: uluru,
+  //           map: map
+  //         });
+  //       }
